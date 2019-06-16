@@ -40,9 +40,9 @@ def condition=(condition)
   @condition = condition
 end
 
-def cobble(shoe, condition)
+def cobble(shoe = "Nike", condition = "new")
   @shoe = "Nike"
-  @condition = "old"
+  @condition = "new"
 end
 
 end
