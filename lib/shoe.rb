@@ -45,4 +45,8 @@ def cobble(shoe = "Nike", condition = "new")
   @condition = "new"
 end
 
+def stdout
+  puts "Your shoe is as good as new!"
+end
+
 end
