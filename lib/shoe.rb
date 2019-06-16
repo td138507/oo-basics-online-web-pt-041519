@@ -43,10 +43,8 @@ end
 def cobble(shoe = "Nike", condition = "new")
   @shoe = "Nike"
   @condition = "new"
-end
-
-def stdout
   puts "Your shoe is as good as new!"
 end
+
 
 end
