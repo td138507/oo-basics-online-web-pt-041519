@@ -8,3 +8,20 @@ class Shoe
     @brand
   end
 end
+
+def color
+  @color
+end
+
+def size= (num)
+  @size = num
+end
+
+def material
+  @material
+end
+
+def condition
+  @condition
+end
+end
